@@ -11,11 +11,14 @@ bool isPrime(int a){
 }
 
 int main(){
-    int a, b, res = 0;
+    int a, b, res = 0, c = 0;
     vector<int> v;
     cin >> a >> b;
     while(a < b-1){
-        if(isPrime(++a) == 1) cout << a << ",";
+        if(isPrime(++a) == 1){
+            if(c != 1) cout << a;
+            else cout << "," << a;
+            c = 1;
+        }
     }
-    cout << "\b";
 }
