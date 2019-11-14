@@ -12,7 +12,6 @@ bool isPrime(int a){
 
 int main(){
     int a, b, res = 0, c = 0;
-    vector<int> v;
     cin >> a >> b;
     while(a < b-1){
         if(isPrime(++a) == 1){
