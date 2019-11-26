@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// U can find code without 2d array in SpecialSq-2.cpp 
+
 int a[20][20];
 
 int main(){
